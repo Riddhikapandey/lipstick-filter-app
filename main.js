@@ -28,8 +28,8 @@ function gotPoses(results)
     noseX = results[0].pose.nose.x-25;
     noseY = results[0].pose.nose.y+15;
   }
-  
 }
+
 function draw() {
   image(video, 0, 0, 300, 300);
   image(clown_nose, noseX, noseY, 50, 20);
